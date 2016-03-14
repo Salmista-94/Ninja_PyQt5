@@ -1,4 +1,5 @@
 fix:
+  *current version. I´m downloaded the old repo
   *traslations files.
   *mixin old operation with bytes() and str().
   *fatal error related a 'QPainter' and 'Minimap'.
