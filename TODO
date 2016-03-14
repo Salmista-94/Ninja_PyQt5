@@ -1,0 +1,6 @@
+fix:
+  *traslations files.
+  *mixin old operation with bytes() and str().
+  *fatal error related a 'QPainter' and 'Minimap'.
+  *incompatibilities with module 'ast' of python.
+  *more and more...
