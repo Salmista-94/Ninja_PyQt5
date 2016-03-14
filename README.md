@@ -1,1 +1,1 @@
-# Ninja_PyQt5
+# Ninja_PyQt5 beta 1
