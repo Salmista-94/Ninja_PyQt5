@@ -118,7 +118,7 @@ def _parse_function(symbol, with_docstrings):
     if symbol.args.vararg is not None:
         if not func_name.endswith('('):
             func_name += ', '
-        func_name += '*' + symbol.args.vararg
+        func_name += '*' + symbol.args.vararg.arg# symbol.args.vararg
     if symbol.args.kwarg is not None:
         if not func_name.endswith('('):
             func_name += ', '

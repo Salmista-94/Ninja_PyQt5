@@ -270,7 +270,7 @@ class _s_MainContainer(QSplitter):
 
     def add_editor(self, fileName="", project=None, tabIndex=None,
         syntax=None, use_open_highlight=False):
-
+        print("add_editor_2.3", fileName)
         project_obj = self._parent.explorer.get_project_given_filename(
             fileName)
         editorWidget = editor.create_editor(fileName=fileName, project=project,
